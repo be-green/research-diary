@@ -18,8 +18,8 @@ $u^\prime (w, z) = (wz)^{\beta(1- \gamma) - 1}$
 
 which is still a CRRA utility function, but scaled for effort. We want to find a scalar, proportional wage adjustment factor, a, such that
 
-$$u(a \times w_0, z_0) + E_1\left[\int_1^5  e^{-rt}u(w_t, z_t) dt\right] = E_0\left[\int_0^5 e^{-rs} u(w_s , z_s) ds\right]$$
-Since $a$ only shows up for the first year, we can 
+$$\int_0^1 e^{-rt}u(a \times w_0, z_0)dt + E_1\left[\int_1^5  e^{-rt}u(w_t, z_t) dt\right] = E_0\left[\int_0^5 e^{-rs} u(w_s , z_s) ds\right]$$
+Since $a$ only shows up for the first year, we can factor it out without considering the expectation. Note that the expectation on the LHS is going to depend on the starting state at $t = 1$, starting at the state $(w_0, z_0, \hat{q}_0)$ while the other takes the same expectation at time $0$. Maybe there's some clever math to get those to cancel given a memoryless process, for now I'm just going to simulate both becu
 
 
 the LHS has a constant, which we can factor out, giving us
