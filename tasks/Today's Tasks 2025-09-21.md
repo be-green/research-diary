@@ -11,12 +11,12 @@ kanban-plugin: board
 
 ## Doing
 
-- [ ] Kick off query on ldws02
 - [ ] [[Simulations for Certainty Equivalent Calculation]]
 
 
 ## Done
 
+- [ ] Kick off query on ldws02
 
 
 ## On Hold

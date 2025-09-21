@@ -37,3 +37,13 @@ I'm a bit concerned that the $z_0$ distribution is pretty fat-tailed but it is w
 $$\boxed{a = \left(\frac{E_0\left[\int_0^5 e^{-rt} u(w_t, z_t) dt\right] - E_1\left[\int_1^5 e^{-rt} u(w_t, z_t) dt\right]}{\int_0^1 e^{-rt }u(w_0, z_0)dt}\right)^{\frac{1}{\beta(1 - \gamma)}}}$$
 
 where we are going to evaluate the numerator by simulation.
+
+
+> [!NOTE] A _slightly_ smarter path!
+> Since we have a path that only depends on the state variables at time $0$, we know that the expectation of the first four years of $E_0$ are going to be the same as the first four years of $E_1$, so we can only consider years 0-4. We still have to simulate to get the distribution at $t = 4$, but we can _only simulate once_ and then drop the first four years because we know they will be differenced out. That leaves us with 
+> $$a = \left(\frac{E_0\left[\int_4^5 e^{-rt}u(w_t, z_t) dt\right]}{\int_0^1 e^{-rt} u(w_0, z_0)}\right)^{\frac{1}{\beta(1 - \gamma)}}$$
+> Further, the bottom is a constant, so we can simplify further.
+> $$a = \left(\frac{E_0\left[\int_4^5 e^{-rt}u(w_t, z_t) dt\right]}{u(w_0, z_0) \frac{1 - e^{-r}}{r}}\right)^{\frac{1}{\beta(1 - \gamma)}}$$
+
+
+
