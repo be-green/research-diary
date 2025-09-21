@@ -29,4 +29,7 @@ We can pull $a$ out of the integral up front, since it is a constant and
 $$\int_0^1 e^{-rt}u(a \times w_0, z_0) dt = \int_0^1 e^{-rt} \frac{1}{\beta (1 - \gamma)} (awz)^{\beta (1 - \gamma)} dt$$
 so we can pull out $a^{\beta (1 - \gamma)}$ and get 
 
-$$\int_0^1 e^{-rt}u(a \times w_0, z_0) dt = a^{\beta (1 - \gamma)} \int $$ 
+$$\int_0^1 e^{-rt}u(a \times w_0, z_0) dt = a^{\beta (1 - \gamma)} \int_0^1 e^{-rt}u(w_0, z_0) dt$$ so the certainty equivalent we need is just going to come from re-arranging that expression given a starting grid of wages (which are determined by the $\hat{q}$ grid), and $z_0$, which is going to be determined by the Frechet distribution 
+
+$$z_{i, 0} \sim Frechet(T_{\tau(i)}, \theta_{\tau(i)})$$
+I'm a bit concerned that the $z_0$ distribution is pretty fat-tailed but it is what it is...
