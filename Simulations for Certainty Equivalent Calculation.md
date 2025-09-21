@@ -18,7 +18,9 @@ $u^\prime (w, z) = (wz)^{\beta(1- \gamma) - 1}$
 
 which is still a CRRA utility function, but scaled for effort. We want to find a scalar, proportional wage adjustment factor, a, such that
 
-$$u(a \times w_0, z_0) = E\left[\int_0^1 u(w_t , z_t)\right]$$
+$$u(a \times w_0, z_0) + E_1\left[\int_1^5  e^{-rt}u(w_t, z_t) dt\right] = E_0\left[\int_0^5 e^{-rs} u(w_s , z_s) ds\right]$$
+Since $a$ only shows up for the first year, we can 
+
 
 the LHS has a constant, which we can factor out, giving us
 
