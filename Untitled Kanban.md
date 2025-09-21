@@ -6,13 +6,13 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] [[Simulations for Certainty Equivalent Calculation]]
 - [ ] Kick off query on ldws02
 - [ ] Probability of large loss + switching measure
 
 
 ## Started
 
+- [ ] [[Simulations for Certainty Equivalent Calculation]]
 
 
 ## Done
