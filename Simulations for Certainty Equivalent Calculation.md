@@ -19,14 +19,9 @@ $u^\prime (w, z) = (wz)^{\beta(1- \gamma) - 1}$
 which is still a CRRA utility function, but scaled for effort. We want to find a scalar, proportional wage adjustment factor, a, such that
 
 $$\int_0^1 e^{-rt}u(a \times w_0, z_0)dt + E_1\left[\int_1^5  e^{-rt}u(w_t, z_t) dt\right] = E_0\left[\int_0^5 e^{-rs} u(w_s , z_s) ds\right]$$
-Since $a$ only shows up for the first year, we can factor it out without considering the expectation. Note that the expectation on the LHS is going to depend on the starting state at $t = 1$, starting at the state $(w_0, z_0, \hat{q}_0)$ while the other takes the same expectation at time $0$. Maybe there's some clever math to get those to cancel given a memoryless process, for now I'm just going to simulate both becu
+Since $a$ only shows up for the first year, we can factor it out without considering the expectation. Note that the expectation on the LHS is going to depend on the starting state at $t = 1$, starting at the state $(w_0, z_0, \hat{q}_0)$ while the other takes the same expectation at time $0$. 
 
+> [!NOTE] Taking the stupid road
+> Maybe there's some clever math to get those to cancel given a memoryless process, for now I'm just going to simulate both because I'm not sure how to deal with the fact that we have an unknown distribution of states that would start at year 4 for the second term without simulating them. Maybe there's a trick where we can approximate everything with some kind of discrete Markov chain. Putting it aside for now.
 
-the LHS has a constant, which we can factor out, giving us
-
-$$ \int_0^5 e^{-rt} u(a \times w_0, z_0)dt = u(a \times w_0, z_0) \int_0^5 e^{-rt}dt = u(a \times w_0, z_0) \frac{1 - e^{-5r}}{r} $$
-
-When we evaluate the RHS expression, and get some constant $U$ which we have solved for numerically, we can re-arrange so that
-
-$EU = u(a \times w_0, z_0) = \frac{1}{1 - \gamma}\left(\frac{\rho}{1 + \rho} [aw_0z_0]^{1 + \frac{1}{\rho}}\right)^{1 - \gamma} = \frac{1}{(1 - \gamma) \beta} (a w_0 z_0)^{\beta (1 - \gamma)}$
-
+We can pull $a$ out of the integral up front, since it is a constan
