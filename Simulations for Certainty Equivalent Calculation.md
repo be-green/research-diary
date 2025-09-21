@@ -24,4 +24,9 @@ Since $a$ only shows up for the first year, we can factor it out without conside
 > [!NOTE] Taking the stupid road
 > Maybe there's some clever math to get those to cancel given a memoryless process, for now I'm just going to simulate both because I'm not sure how to deal with the fact that we have an unknown distribution of states that would start at year 4 for the second term without simulating them. Maybe there's a trick where we can approximate everything with some kind of discrete Markov chain. Putting it aside for now.
 
-We can pull $a$ out of the integral up front, since it is a constan
+We can pull $a$ out of the integral up front, since it is a constant and 
+
+$$\int_0^1 e^{-rt}u(a \times w_0, z_0) dt = \int_0^1 e^{-rt} \frac{1}{\beta (1 - \gamma)} (awz)^{\beta (1 - \gamma)} dt$$
+so we can pull out $a^{\beta (1 - \gamma)}$ and get 
+
+$$\int_0^1 e^{-rt}u(a \times w_0, z_0) dt = a^{\beta (1 - \gamma)} \int $$ 
