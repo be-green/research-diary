@@ -34,4 +34,5 @@ $$\int_0^1 e^{-rt}u(a \times w_0, z_0) dt = a^{\beta (1 - \gamma)} \int_0^1 e^{-
 $$z_{i, 0} \sim Frechet(T_{\tau(i)}, \theta_{\tau(i)})$$
 I'm a bit concerned that the $z_0$ distribution is pretty fat-tailed but it is what it is... In any case, to wrap it all up: 
 
-$$\boxed{a = \frac{E_0\left[\int_0^5 e^{-rt} u(w_t, z_t) dt\right] - E_1\left[\int_1^5 e^{-rt} u(w_t, z_t) dt\right]}{}} $$
+$$a = (\frac{E_0\left[\int_0^5 e^{-rt} u(w_t, z_t) dt\right] - E_1\left[\int_1^5 e^{-rt} u(w_t, z_t) dt\right]}{\int_0^1 e^{-rt }u(w_t, z_t)dt}}^{\frac{1}{\beta(1 - \gamma)}$$
+
