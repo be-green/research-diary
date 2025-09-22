@@ -10,7 +10,7 @@ We have that
 $$u(w, z, e^*) = u(wz^{1 + \frac{1}{\rho}}- c(e^*)^{\frac{1}{\rho}}) = u\left(\frac{\rho}{1 + \rho} [wz]^{1 + \frac{1}{\rho}}\right)$$
 evaluating this expression, we get
 
-$u(w, z) = \frac{1}{1 - \gamma}\left(\frac{\rho}{1 + \rho} [wz]^{1 + \frac{1}{\rho}}\right)^{1 - \gamma} = \frac{1}{\beta (1 - \gamma)} wz^{\beta (1 - \gamma)}$
+$u(w, z) = \frac{1}{1 - \gamma}\left(\frac{\rho}{1 + \rho} [wz]^{1 + \frac{1}{\rho}}\right)^{1 - \gamma} = \frac{1}{\beta (1 - \gamma)} (wz)^{\beta (1 - \gamma)}$
 
 Note that marginal utility is then
 
