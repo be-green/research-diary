@@ -16,7 +16,6 @@ kanban-plugin: board
 
 ## Done
 
-- [ ] Kick off query on ldws02
 
 
 ## On Hold
