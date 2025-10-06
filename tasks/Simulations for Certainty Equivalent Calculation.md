@@ -3,7 +3,7 @@ tags:
   - kb-note
   - innovation-paper
 ---
-We need to measure the certainty equivalent associated with a willingness to pay for a single innovation shock. The proposal is that we want the willingness to pay for hedging a single year of shocks based on their impact over 5 years. I told Larry I wasn't sure that was the easiest to explain but I think it's ok to implement.
+We need to measure the certainty equivalent associated with a willingness to pay for a single innovation shock. The proposal is that we want the willingness to pay for hedging a single year of shocks based on their impact over 5 years.
 
 We have that
 
