@@ -1,0 +1,1 @@
+CE Calculations currently assume a constant $z$ over the first year. This needs to be fixed, so I need to construct two utility paths, one with fixed wages but moving $z$ and one with moving everything.

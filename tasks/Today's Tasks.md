@@ -6,16 +6,17 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] Probability of large loss + switching measure
+- [ ] [[Fix CE Calc]]
 
 
 ## Doing
 
-- [ ] [[Simulations for Certainty Equivalent Calculation]]
 
 
 ## Done
 
+- [ ] [[Simulations for Certainty Equivalent Calculation]]
+- [ ] Probability of large loss + switching measure
 
 
 ## On Hold
