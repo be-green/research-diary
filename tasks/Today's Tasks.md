@@ -7,10 +7,12 @@ kanban-plugin: board
 ## To Do
 
 - [ ] [[Fix CE Calc]]
+- [ ] Earnings Quantiles Calculation
 
 
 ## Doing
 
+- [ ] [[Innovation Increase Comparative Static]]
 
 
 ## Done
