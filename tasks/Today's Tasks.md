@@ -6,19 +6,20 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] [[Fix CE Calc]]
-- [ ] Earnings Quantiles Calculation
+- [ ] [[Fix Switcher Regressions]]
 
 
 ## Doing
 
-- [ ] [[Innovation Increase Comparative Static]]
+- [ ] Earnings Quantiles Calculation
 
 
 ## Done
 
+- [ ] [[Innovation Increase Comparative Static]]
 - [ ] [[Simulations for Certainty Equivalent Calculation]]
 - [ ] Probability of large loss + switching measure
+- [ ] [[Fix CE Calc]]
 
 
 ## On Hold
