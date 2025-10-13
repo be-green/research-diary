@@ -7,8 +7,9 @@ kanban-plugin: board
 ## To Do
 
 - [ ] Earnings Quantiles Calculation
-- [ ] 3 Year Switcher Regressions
-- [ ] CE Numbers for R&D Subsidy Calc
+- [ ] [[3 Year Switcher Regressions]]
+- [ ] [[CE Numbers for R&D Subsidy Calc]]
+- [ ] [[Change CE calcs]]
 
 
 ## Doing
