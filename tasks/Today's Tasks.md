@@ -10,6 +10,7 @@ kanban-plugin: board
 - [ ] [[3 Year Switcher Regressions]]
 - [ ] [[CE Numbers for R&D Subsidy Calc]]
 - [ ] [[Change CE calcs]]
+- [ ] Change figure 8 to reg coeffs by Horizon
 
 
 ## Doing
