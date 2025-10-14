@@ -6,17 +6,17 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] Earnings Quantiles Calculation
 - [ ] [[CE Numbers for R&D Subsidy Calc]]
 
 
 ## Doing
 
-- [ ] [[Change CE calcs]]
 
 
 ## Done
 
+- [ ] Earnings Quantiles Calculation
+- [ ] [[Change CE calcs]]
 - [ ] [[3 Year Switcher Regressions]]
 - [ ] [[Gap relative to outside option given prior earnings distribution]]
 - [ ] [[Change figure 8 to reg coeffs by Horizon]]
