@@ -8,7 +8,7 @@ kanban-plugin: board
 
 - [ ] Earnings Quantiles Calculation
 - [ ] [[CE Numbers for R&D Subsidy Calc]]
-- [ ] Gap relative to outside option given prior earnings distribution
+- [ ] [[Gap relative to outside option given prior earnings distribution]]
 
 
 ## Doing
