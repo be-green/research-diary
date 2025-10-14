@@ -17,6 +17,7 @@ Ok let's do this thing by hand. I'm going to run this forward, changing n_period
    -0.0077    0.0125
    -0.0131    0.0192
    -0.0267    0.0425
+
 3 years:
 
    -0.0072    0.0133
@@ -27,3 +28,19 @@ Ok let's do this thing by hand. I'm going to run this forward, changing n_period
    -0.0280    0.0443
 
 2 years:
+
+   -0.0078    0.0142
+   -0.0032    0.0101
+   -0.0060    0.0120
+   -0.0085    0.0140
+   -0.0140    0.0203
+   -0.0282    0.0453
+
+1 year:
+
+   -0.0082    0.0153
+   -0.0036    0.0113
+   -0.0065    0.0131
+   -0.0089    0.0148
+   -0.0142    0.0215
+   -0.0294    0.0470
