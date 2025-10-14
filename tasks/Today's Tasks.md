@@ -11,6 +11,7 @@ kanban-plugin: board
 - [ ] [[CE Numbers for R&D Subsidy Calc]]
 - [ ] [[Change CE calcs]]
 - [ ] [[Change figure 8 to reg coeffs by Horizon]]
+- [ ] Gap relative to outside option given prior earnings distribution
 
 
 ## Doing
