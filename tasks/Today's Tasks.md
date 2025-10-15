@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] [[CE Numbers for R&D Subsidy Calc]]
 - [ ] Switcher Regression Plot
 
 
