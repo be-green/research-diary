@@ -8,7 +8,7 @@ kanban-plugin: board
 
 - [ ] [[CE Numbers for R&D Subsidy Calc]]
 - [ ] Switcher Regression Plot
-- [ ] OO Gap Regressions
+- [ ] [[OO Gap Regressions]]
 
 
 ## Doing
