@@ -6,17 +6,17 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] Switcher Regression Plot
 
 
 ## Doing
 
-- [ ] [[OO Gap Regressions]]
 
 
 ## Done
 
 - [ ] Earnings Quantiles Calculation
+- [ ] [[OO Gap Regressions]]
+- [ ] Switcher Regression Plot
 - [ ] [[Change CE calcs]]
 - [ ] [[3 Year Switcher Regressions]]
 - [ ] [[Gap relative to outside option given prior earnings distribution]]
