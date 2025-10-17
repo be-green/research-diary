@@ -19,3 +19,9 @@
 	* don't need to think about costs 
 	* just ratio of the benefit between different groups of people 
 	* just add up willingness to pay?
+* WTP 
+	* give them double the amount of innovation in a year, add up willingness to pay for this number in dollars
+	* in the complete markets, people just consume aggregate output (w * l), add up willingness to pay in dollars for that output 
+	* one version you subsidize everything one version you subsidize entry 
+* cites
+	* need to cite ufuk, angus deaton, etc. 
