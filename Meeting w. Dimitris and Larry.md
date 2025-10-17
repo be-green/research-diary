@@ -25,6 +25,8 @@
 	* one version you subsidize everything one version you subsidize entry 
 * cites
 	* need to cite ufuk, angus deaton, etc. 
+	* update schmidt jmp cite 
+	* update schmidt / zhu 
 * decompositions
 	* labor share aggregate 
 	* decomposition of new products vs. old products
