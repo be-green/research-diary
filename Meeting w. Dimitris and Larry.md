@@ -5,3 +5,8 @@
 	* tax profits?
 	* tax on consumption? 
 		* wages + profits, tax both 
+* takeaway
+	* 1 period increase in innovation
+	* compare complete markets version vs. incomplete markets version 
+	* compare change in consumption from increase in g
+* 
