@@ -49,11 +49,11 @@ The first one is exactly the same as our hedging calculation, but where people g
 
 This gives a path like so:
 
-$$E_0\left(\int_0^{20} e^{-(r - g_t)t }u(w_t, z_t) dt\right) = E_0\left(\int_0^1 e^{-(r - g + \Delta)t }u(w_t, z_t)dt + \int_1^{20} e^{-(r - g)t + \Delta} u(w_t, z_t) dt\right)$$
+$$E_0\left(\int_0^{20} e^{-(r - g_t)t }u(w_t, z_t) dt\right) = E_0\left(\int_0^1 e^{-(r - (g + \Delta))t }u(w_t, z_t)dt + \int_1^{20} e^{-(r - g)t + \Delta} u(w_t, z_t) dt\right)$$
 where $\Delta$ is a factor determined by the contribution of innovation to the growth rate. Plugging into the same formula we had for the annual share of wages we have in the certainty equivalent, this is:
 
 $$\begin{aligned}
-a_{i, CM} &= \left(\frac{E_0\left[\int_0^{20} e^{-(r - g)t} u(w_{it}, z_{it}) dt\right] }{E_0\left[\int_0^1 e^{-(r - g + \Delta)t }u(w_{it}, z_{it})dt + \int_1^{20} e^{-(r - g)t + \Delta} u(w_{it}, z_{it}) dt\right]}\right)^{\frac{1}{\beta(1 - \gamma)}}
+a_{i, CM} &= \left(\frac{E_0\left[\int_0^{20} e^{-(r - g)t} u(w_{it}, z_{it}) dt\right] }{E_0\left[\int_0^1 e^{-(r - (g + \Delta))t }u(w_{it}, z_{it})dt + \int_1^{20} e^{-(r - g)t + \Delta} u(w_{it}, z_{it}) dt\right]}\right)^{\frac{1}{\beta(1 - \gamma)}}
 \end{aligned}
 $$
 The non-CM version just computes the wage path for each worker under the new innovation path for the first year and then returns back to the original equilibrium; the expression looks very similar so I'm going to omit. To aggregate WTP, we can compute a dollar amount this generates each period:
