@@ -40,3 +40,9 @@ where we are going to evaluate the numerator by simulation.
 
 > [!NOTE] A _slightly_ smarter path!
 > Since we have a path that only depends on the state variables at time $0$, we know that the expectation of the first four years of $E_0$ are going to be the same as the first four years of $E_1$, so we can only consider years 0-4. This means that we can simulate a single set of 5-year path, use them to calculate both the 5-year and 4-year expectations, and compute the relevant ratio.
+
+Now we want to compare two scenarios:
+1. We want to see how much people would be WTP to double the innovation rate
+2. We want to see the same thing, but where they end up sharing the additional growth without risk instead of with risk
+
+The first one is exactly the same as our hedging calculation, but where people get an additional burst of innovation for a single year. The second is a little different, but we can think about it as every person getting a proportional increase in their wages 
