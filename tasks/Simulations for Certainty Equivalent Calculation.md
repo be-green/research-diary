@@ -41,17 +41,24 @@ where we are going to evaluate the numerator by simulation.
 > [!NOTE] A _slightly_ smarter path!
 > Since we have a path that only depends on the state variables at time $0$, we know that the expectation of the first four years of $E_0$ are going to be the same as the first four years of $E_1$, so we can only consider years 0-4. This means that we can simulate a single set of 5-year path, use them to calculate both the 5-year and 4-year expectations, and compute the relevant ratio.
 
-Now we want to compare two scenarios:
+We want to compare two scenarios:
 1. We want to see how much people would be WTP to double the innovation rate
 2. We want to see the same thing, but where they end up sharing the additional growth without risk instead of with risk
 
-The first one is exactly the same as our hedging calculation, but where people get an additional burst of innovation for a single year. The second is a little different, but we can think about it as every person getting a proportional increase in their wages in the next year. This gives a path like so:
+The first one is exactly the same as our hedging calculation, but where people get an additional burst of innovation for a single year. The second is a little different, but we can think about it as every person getting a proportional increase in their wages in the next year. This is the same as making growth time-dependent where $g_t = g + \Delta$, if $t \in [0, 1]$ and $g_t = g$ otherwise. 
+
+This gives a path like so:
 
 $$E_0\left(\int_0^{20} e^{-(r - g_t)t }u(w_t, z_t) dt\right) = E_0\left(\int_0^1 e^{-(r - g + \Delta)t }u(w_t, z_t)dt + \int_1^{20} e^{-(r - g)t} u(w_t, z_t) dt\right)$$
 where $\Delta$ is a factor determined by the contribution of innovation to the growth rate. Plugging into the same formula we had for the annual share of wages we have in the certainty equivalent, this is:
 
 $$\begin{aligned}
-a &= \left(\frac{E_0\left[\int_0^{20} e^{-(r - g)t} u(w_t, z_t) dt\right] }{E_0\left[\int_0^1 e^{-(r - g + \Delta)t }u(w_t, z_t)dt + \int_1^{20} e^{-(r - g)t} u(w_t, z_t) dt\right]}\right)^{\frac{1}{\beta(1 - \gamma)}} \\ 
-&= \left(\frac{E_0\left[\int_0^{20} e^{-(r - g)t} u(w_t, z_t) dt\right] }{E_0\left[\int_0^1 e^{\Delta t}e^{-(r - g)t }u(w_t, z_t)dt + \int_1^{20} e^{-(r - g)t} u(w_t, z_t) dt\right]}\right)^{\frac{1}{\beta(1 - \gamma)}}
+a_{i, CM} &= \left(\frac{E_0\left[\int_0^{20} e^{-(r - g)t} u(w_{it}, z_{it}) dt\right] }{E_0\left[\int_0^1 e^{-(r - g + \Delta)t }u(w_{it}, z_{it})dt + \int_1^{20} e^{-(r - g)t} u(w_{it}, z_{it}) dt\right]}\right)^{\frac{1}{\beta(1 - \gamma)}}
 \end{aligned}
 $$
+The non-CM version just computes the wage path for each worker under the new innovation path for the first year and then returns back to the original equilibrium; the expression looks very similar so I'm going to omit. To aggregate WTP, we can compute a dollar amount this generates each period:
+
+$$D_{t, CM} = \int_i E_0(a_{i, CM} (w_{it} z_{it})^{\beta_{\tau(i)}} di \approx \frac{1}{N_i} \frac{1}{N_{sims}}\sum_i \sum_s a_{i, cm} (w_{it}(s)z_{it}(s))^{\beta_{\tau(i)}}$$
+which is integrating take-home pay multiplied by the share-based WTP of that worker at their initial wage, where $s$ indexes a simulated path for the worker that we use to approximate the inner expectation. This gives us a per-period dollar amount we can convert to net present value, 
+$$D_{CM} = \int_0^{20}e^{-rt} D_{t, CM} dt$$
+and the non-complete markets case works analogously. 
