@@ -45,4 +45,13 @@ Now we want to compare two scenarios:
 1. We want to see how much people would be WTP to double the innovation rate
 2. We want to see the same thing, but where they end up sharing the additional growth without risk instead of with risk
 
-The first one is exactly the same as our hedging calculation, but where people get an additional burst of innovation for a single year. The second is a little different, but we can think about it as every person getting a proportional increase in their wages 
+The first one is exactly the same as our hedging calculation, but where people get an additional burst of innovation for a single year. The second is a little different, but we can think about it as every person getting a proportional increase in their wages in the next year. This gives a path like so:
+
+$$E_0\left(\int_0^{20} e^{-(r - g_t)t }u(w_t, z_t) dt\right) = E_0\left(\int_0^1 e^{-(r - g + \Delta)t }u(w_t, z_t)dt + \int_1^{20} e^{-(r - g)t} u(w_t, z_t) dt\right)$$
+where $\Delta$ is a factor determined by the contribution of innovation to the growth rate. Plugging into the same formula we had for the annual share of wages we have in the certainty equivalent, this is:
+
+$$\begin{aligned}
+a &= \left(\frac{E_0\left[\int_0^{20} e^{-(r - g)t} u(w_t, z_t) dt\right] }{E_0\left[\int_0^1 e^{-(r - g + \Delta)t }u(w_t, z_t)dt + \int_1^{20} e^{-(r - g)t} u(w_t, z_t) dt\right]}\right)^{\frac{1}{\beta(1 - \gamma)}} \\ 
+&= \left(\frac{E_0\left[\int_0^{20} e^{-(r - g)t} u(w_t, z_t) dt\right] }{E_0\left[\int_0^1 e^{\Delta t}e^{-(r - g)t }u(w_t, z_t)dt + \int_1^{20} e^{-(r - g)t} u(w_t, z_t) dt\right]}\right)^{\frac{1}{\beta(1 - \gamma)}}
+\end{aligned}
+$$
