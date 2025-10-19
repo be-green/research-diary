@@ -58,7 +58,7 @@ a_{i, CM} &= \left(\frac{E_0\left[\int_0^{20} e^{-(r - g)t} u(w_{it}, z_{it}) dt
 $$
 The non-CM version just computes the wage path for each worker under the new innovation path for the first year and then returns back to the original equilibrium; the expression looks very similar so I'm going to omit. To aggregate WTP, we can compute a dollar amount this generates each period:
 
-$$D_{t, CM} = \int_i E_0(a_{i, CM} (w_{it} z_{it})^{\beta_{\tau(i)}} di \approx \frac{1}{N_i} \frac{1}{N_{sims}}\sum_i \sum_s a_{i, cm} (w_{it}(s)z_{it}(s))^{\beta_{\tau(i)}}$$
+$$D_{t, CM} = \int_i E_0(a_{i, CM} (w_{it} z_{it})^{\beta_{\tau(i)}} di) \approx \frac{1}{N_i} \frac{1}{N_{sims}}\sum_i \sum_s a_{i, cm} (w_{it}(s)z_{it}(s))^{\beta_{\tau(i)}}$$
 which is integrating take-home pay multiplied by the share-based WTP of that worker at their initial wage, where $s$ indexes a simulated path for the worker that we use to approximate the inner expectation. This gives us a per-period dollar amount we can convert to net present value, 
 $$D_{CM} = \int_0^{20}e^{-(r - g)t} D_{t, CM} dt$$
-and the non-complete markets case works analogously. 
+and the non-complete markets case works analogously.
