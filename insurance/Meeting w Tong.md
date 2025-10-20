@@ -3,5 +3,6 @@ tags:
   - insurance
 ---
 Existing Literature:
-
-- cross-subsidization finding 
+Sangmin Oh's paper
+- cross-subsidization? 
+- regulatory frictions matter 
