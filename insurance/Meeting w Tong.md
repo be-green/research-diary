@@ -35,3 +35,12 @@ Tong:
 	* identification is very cool 
 	* welfare impacts coming from the price cap 
 		* low hanging fruit 
+	* if you think about the regulators, they share the same interest as the customers 
+		* long-term contract between the firms and the regulators 
+		* friction there is more like a moral hazard problem 
+			* suppose I lie to the regulator 
+			* optimal contracts given the moral hazard problem? 
+				* pricing between insurers and providers 
+				* sign on the firm, allow you a 5% increase relative to base price 
+				* why would this occur? seems like it would be because of difficulty with verification 
+				* 
