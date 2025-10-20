@@ -43,4 +43,6 @@ Tong:
 				* pricing between insurers and providers 
 				* sign on the firm, allow you a 5% increase relative to base price 
 				* why would this occur? seems like it would be because of difficulty with verification 
-				* 
+* is there a secondary market for building permits ?
+* jim poterba 
+	* pricing frictions -- are they worth exp
