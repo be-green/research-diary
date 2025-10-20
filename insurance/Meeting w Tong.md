@@ -23,4 +23,6 @@ Questions:
 
 Tong:
 * not aware of papers that take this into account 
-* 
+* cases 
+	* increase based on prospective projections 
+	* retrospective price increases 
