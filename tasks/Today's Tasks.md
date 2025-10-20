@@ -6,6 +6,7 @@ kanban-plugin: board
 
 ## To Do
 
+- [ ] [[Table for Innovation Stuff]]
 
 
 ## Doing
