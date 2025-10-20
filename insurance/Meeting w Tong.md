@@ -32,4 +32,5 @@ Tong:
 	* firms
 		* related to corporate finance / liquidity / cash reserve 
 		* insolvency cost for insurers 
-	* 
+	* identification is very cool 
+		* 
