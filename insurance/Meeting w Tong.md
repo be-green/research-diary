@@ -26,3 +26,10 @@ Tong:
 * cases 
 	* increase based on prospective projections 
 	* retrospective price increases 
+* how are you going to pitch these things 
+	* backward looking stuff 
+		* interesting but not a finance paper
+	* firms
+		* related to corporate finance / liquidity / cash reserve 
+		* insolvency cost for insurers 
+	* 
