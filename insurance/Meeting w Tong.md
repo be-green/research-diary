@@ -45,4 +45,5 @@ Tong:
 				* why would this occur? seems like it would be because of difficulty with verification 
 * is there a secondary market for building permits ?
 * jim poterba 
-	* pricing frictions -- are they worth exp
+	* pricing frictions -- are they worth exploring 
+	* 
