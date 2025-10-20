@@ -18,4 +18,9 @@ Idea:
 Questions:
 * large potential data collection effort, is this interesting enough to be worth it?
 * is this something that's "already done"?
-* to me seems like no...but maybe people think that the oh paper is kind of the final word on this? 
+* to me seems like no...but curious for thoughts? 
+
+
+Tong:
+* not aware of papers that take this into account 
+* 
