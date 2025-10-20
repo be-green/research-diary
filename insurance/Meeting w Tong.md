@@ -46,4 +46,6 @@ Tong:
 * is there a secondary market for building permits ?
 * jim poterba 
 	* pricing frictions -- are they worth exploring 
+* data collection
+	* do not do it by myself 
 	* 
