@@ -33,4 +33,5 @@ Tong:
 		* related to corporate finance / liquidity / cash reserve 
 		* insolvency cost for insurers 
 	* identification is very cool 
-		* 
+	* welfare impacts coming from the price cap 
+		* low hanging fruit 
