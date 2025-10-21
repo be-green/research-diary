@@ -7,6 +7,7 @@ kanban-plugin: board
 ## To Do
 
 - [ ] [[Table for Innovation Stuff]]
+- [ ] [[All of the things we assume]]
 
 
 ## Doing
