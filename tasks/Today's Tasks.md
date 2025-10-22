@@ -8,6 +8,7 @@ kanban-plugin: board
 
 - [ ] [[Table for Innovation Stuff]]
 - [ ] [[All of the things we assume]]
+- [ ] [[Wage Plot]]
 
 
 ## Doing
