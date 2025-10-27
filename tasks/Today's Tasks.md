@@ -7,10 +7,7 @@ kanban-plugin: board
 ## To Do
 
 - [ ] [[Table for Innovation Stuff]]
-- [ ] [[All of the things we assume]]
 - [ ] [[Wage Plot]]
-- [ ] combine figures 7 and 8
-- [ ] add to figure 13 w/ labor share, supply elasticities, and value added / worker from bryan's paper
 
 
 ## Doing
@@ -20,7 +17,10 @@ kanban-plugin: board
 ## Done
 
 - [ ] Earnings Quantiles Calculation
+- [ ] [[All of the things we assume]]
 - [ ] [[OO Gap Regressions]]
+- [ ] add to figure 13 w/ labor share, supply elasticities, and value added / worker from bryan's paper
+- [ ] combine figures 7 and 8
 - [ ] Switcher Regression Plot
 - [ ] [[Change CE calcs]]
 - [ ] [[3 Year Switcher Regressions]]
