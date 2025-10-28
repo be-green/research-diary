@@ -8,6 +8,7 @@ kanban-plugin: board
 
 - [ ] [[Table for Innovation Stuff]]
 - [ ] [[Wage Plot]]
+- [ ] [[Puzzles we match]]
 
 
 ## Doing
