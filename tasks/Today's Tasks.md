@@ -7,6 +7,8 @@ kanban-plugin: board
 ## To Do
 
 - [ ] [[Keurig and Vincent Model Stuff]]
+- [ ] Plots to Update
+- [ ] Tables to Update
 
 
 ## Doing
