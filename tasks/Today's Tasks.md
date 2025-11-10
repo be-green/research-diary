@@ -6,9 +6,7 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] [[Table for Innovation Stuff]]
-- [ ] [[Wage Plot]]
-- [ ] [[Puzzles we match]]
+- [ ] [[Keurig and Vincent Model Stuff]]
 
 
 ## Doing
@@ -18,7 +16,9 @@ kanban-plugin: board
 ## Done
 
 - [ ] Earnings Quantiles Calculation
+- [ ] [[Wage Plot]]
 - [ ] [[All of the things we assume]]
+- [ ] [[Puzzles we match]]
 - [ ] [[OO Gap Regressions]]
 - [ ] add to figure 13 w/ labor share, supply elasticities, and value added / worker from bryan's paper
 - [ ] combine figures 7 and 8
@@ -31,6 +31,7 @@ kanban-plugin: board
 
 ## On Hold
 
+- [ ] [[Table for Innovation Stuff]]
 
 
 ***
