@@ -8,6 +8,7 @@ kanban-plugin: board
 
 - [ ] [[Keurig and Vincent Model Stuff]]
 - [ ] [[Tables to Update]]
+- [ ] Add deltas to appendix
 
 
 ## Doing
