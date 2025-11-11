@@ -6,11 +6,11 @@ kanban-plugin: board
 
 ## To Do
 
-- [ ] [[Keurig and Vincent Model Stuff]]
 
 
 ## Doing
 
+- [ ] [[Keurig and Vincent Model Stuff]]
 - [ ] Add deltas to appendix
 
 
