@@ -7,18 +7,18 @@ kanban-plugin: board
 ## To Do
 
 - [ ] [[Keurig and Vincent Model Stuff]]
-- [ ] [[Tables to Update]]
-- [ ] Add deltas to appendix
 
 
 ## Doing
 
+- [ ] Add deltas to appendix
 
 
 ## Done
 
 - [ ] [[Plots to Update]]
 - [ ] Earnings Quantiles Calculation
+- [ ] [[Tables to Update]]
 - [ ] [[Wage Plot]]
 - [ ] [[All of the things we assume]]
 - [ ] [[Puzzles we match]]
