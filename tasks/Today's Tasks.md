@@ -13,11 +13,11 @@ kanban-plugin: board
 
 ## Doing
 
-- [ ] [[Plots to Update]]
 
 
 ## Done
 
+- [ ] [[Plots to Update]]
 - [ ] Earnings Quantiles Calculation
 - [ ] [[Wage Plot]]
 - [ ] [[All of the things we assume]]
