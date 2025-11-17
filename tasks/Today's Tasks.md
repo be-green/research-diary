@@ -8,20 +8,23 @@ kanban-plugin: board
 
 - [ ] Email Antoinette
 - [ ] Email Debbie
+- [ ] Text Laurel
+- [ ] Get back to people about party
 
 
 ## Doing
 
-- [ ] [[Keurig and Vincent Model Stuff]]
-- [ ] Add deltas to appendix
+- [ ] Fix p_r in text
 
 
 ## Done
 
+- [ ] Add deltas to appendix
 
 
 ## On Hold
 
+- [ ] [[Keurig and Vincent Model Stuff]]
 - [ ] [[Table for Innovation Stuff]]
 
 
