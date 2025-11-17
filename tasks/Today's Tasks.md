@@ -6,6 +6,8 @@ kanban-plugin: board
 
 ## To Do
 
+- [ ] Email Antoinette
+- [ ] Email Debbie
 
 
 ## Doing
@@ -15,6 +17,17 @@ kanban-plugin: board
 
 
 ## Done
+
+
+
+## On Hold
+
+- [ ] [[Table for Innovation Stuff]]
+
+
+***
+
+## Archive
 
 - [ ] [[Plots to Update]]
 - [ ] Earnings Quantiles Calculation
@@ -30,17 +43,6 @@ kanban-plugin: board
 - [ ] [[3 Year Switcher Regressions]]
 - [ ] [[Gap relative to outside option given prior earnings distribution]]
 - [ ] [[Change figure 8 to reg coeffs by Horizon]]
-
-
-## On Hold
-
-- [ ] [[Table for Innovation Stuff]]
-
-
-***
-
-## Archive
-
 - [ ] [[Fix Switcher Regressions]]
 - [ ] [[Innovation Increase Comparative Static]]
 - [ ] [[Simulations for Certainty Equivalent Calculation]]
