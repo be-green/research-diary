@@ -7,19 +7,20 @@ kanban-plugin: board
 ## To Do
 
 - [ ] Email Antoinette
-- [ ] Email Debbie
-- [ ] Text Laurel
-- [ ] Get back to people about party
+- [ ] Save off data for figure 4, A.2, A.3, A.7
 
 
 ## Doing
 
-- [ ] Fix p_r in text
 
 
 ## Done
 
 - [ ] Add deltas to appendix
+- [ ] Fix p_r in text
+- [ ] Get back to people about party
+- [ ] Text Laurel
+- [ ] Email Debbie
 
 
 ## On Hold
